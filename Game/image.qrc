@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/Logo">
+        <file>Brand/1.png</file>
+        <file>Brand/2.png</file>
+        <file>Brand/3.png</file>
+        <file>Brand/4.png</file>
+        <file>Brand/5.png</file>
+        <file>Brand/6.png</file>
+        <file>Brand/7.png</file>
+        <file>Brand/8.png</file>
+        <file>Brand/9.png</file>
+        <file>Brand/10.png</file>
+        <file>Brand/11.png</file>
+        <file>Brand/12.png</file>
+        <file>Brand/A.png</file>
+    </qresource>
+</RCC>
