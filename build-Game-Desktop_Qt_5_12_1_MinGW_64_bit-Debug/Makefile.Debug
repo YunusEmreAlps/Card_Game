@@ -238,10 +238,15 @@ debug/moc_mainwindow.cpp: ../Game/mainwindow.h \
 		D:/Program_Files/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtGui/qtouchdevice.h \
 		D:/Program_Files/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtWidgets/qtabwidget.h \
 		D:/Program_Files/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtGui/qicon.h \
+		D:/Program_Files/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtGui/QMouseEvent \
 		D:/Program_Files/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtCore/QTimer \
 		D:/Program_Files/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtCore/qtimer.h \
 		D:/Program_Files/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtCore/qbasictimer.h \
-		D:/Program_Files/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtGui/QMouseEvent \
+		../Game/cards.h \
+		D:/Program_Files/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtWidgets/QWidget \
+		D:/Program_Files/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtWidgets/QLabel \
+		D:/Program_Files/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtWidgets/qlabel.h \
+		D:/Program_Files/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtWidgets/qframe.h \
 		debug/moc_predefs.h \
 		D:/Program_Files/Qt/Qt5.12.1/5.12.1/mingw73_64/bin/moc.exe
 	D:\Program_Files\Qt\Qt5.12.1\5.12.1\mingw73_64\bin\moc.exe $(DEFINES) --include "C:/Users/Dell/Desktop/Qt/Homework/2. ) Memory_Card_Game_2/build-Game-Desktop_Qt_5_12_1_MinGW_64_bit-Debug/debug/moc_predefs.h" -ID:/Program_Files/Qt/Qt5.12.1/5.12.1/mingw73_64/mkspecs/win32-g++ -I"C:/Users/Dell/Desktop/Qt/Homework/2. ) Memory_Card_Game_2/Game" -ID:/Program_Files/Qt/Qt5.12.1/5.12.1/mingw73_64/include -ID:/Program_Files/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtWidgets -ID:/Program_Files/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtGui -ID:/Program_Files/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtANGLE -ID:/Program_Files/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtCore -I. -ID:/Program_Files/Qt/Qt5.12.1/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++ -ID:/Program_Files/Qt/Qt5.12.1/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/x86_64-w64-mingw32 -ID:/Program_Files/Qt/Qt5.12.1/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include/c++/backward -ID:/Program_Files/Qt/Qt5.12.1/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include -ID:/Program_Files/Qt/Qt5.12.1/Tools/mingw730_64/lib/gcc/x86_64-w64-mingw32/7.3.0/include-fixed -ID:/Program_Files/Qt/Qt5.12.1/Tools/mingw730_64/x86_64-w64-mingw32/include ..\Game\mainwindow.h -o debug\moc_mainwindow.cpp
@@ -491,10 +496,15 @@ debug/main.o: ../Game/main.cpp ../Game/mainwindow.h \
 		D:/Program_Files/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtGui/qtouchdevice.h \
 		D:/Program_Files/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtWidgets/qtabwidget.h \
 		D:/Program_Files/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtGui/qicon.h \
+		D:/Program_Files/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtGui/QMouseEvent \
 		D:/Program_Files/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtCore/QTimer \
 		D:/Program_Files/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtCore/qtimer.h \
 		D:/Program_Files/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtCore/qbasictimer.h \
-		D:/Program_Files/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtGui/QMouseEvent \
+		../Game/cards.h \
+		D:/Program_Files/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtWidgets/QWidget \
+		D:/Program_Files/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtWidgets/QLabel \
+		D:/Program_Files/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtWidgets/qlabel.h \
+		D:/Program_Files/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtWidgets/qframe.h \
 		D:/Program_Files/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtWidgets/QApplication \
 		D:/Program_Files/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtWidgets/qapplication.h \
 		D:/Program_Files/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtCore/qcoreapplication.h \
@@ -611,10 +621,15 @@ debug/mainwindow.o: ../Game/mainwindow.cpp ../Game/mainwindow.h \
 		D:/Program_Files/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtGui/qtouchdevice.h \
 		D:/Program_Files/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtWidgets/qtabwidget.h \
 		D:/Program_Files/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtGui/qicon.h \
+		D:/Program_Files/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtGui/QMouseEvent \
 		D:/Program_Files/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtCore/QTimer \
 		D:/Program_Files/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtCore/qtimer.h \
 		D:/Program_Files/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtCore/qbasictimer.h \
-		D:/Program_Files/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtGui/QMouseEvent \
+		../Game/cards.h \
+		D:/Program_Files/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtWidgets/QWidget \
+		D:/Program_Files/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtWidgets/QLabel \
+		D:/Program_Files/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtWidgets/qlabel.h \
+		D:/Program_Files/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtWidgets/qframe.h \
 		ui_mainwindow.h \
 		D:/Program_Files/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtCore/QVariant \
 		D:/Program_Files/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtWidgets/QApplication \
@@ -632,8 +647,7 @@ debug/mainwindow.o: ../Game/mainwindow.cpp ../Game/mainwindow.h \
 		D:/Program_Files/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtWidgets/QStatusBar \
 		D:/Program_Files/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtWidgets/qstatusbar.h \
 		D:/Program_Files/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtWidgets/QToolBar \
-		D:/Program_Files/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtWidgets/qtoolbar.h \
-		D:/Program_Files/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtWidgets/QWidget
+		D:/Program_Files/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtWidgets/qtoolbar.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\mainwindow.o ..\Game\mainwindow.cpp
 
 debug/cards.o: ../Game/cards.cpp ../Game/cards.h \
@@ -746,7 +760,17 @@ debug/cards.o: ../Game/cards.cpp ../Game/cards.h \
 		D:/Program_Files/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtCore/QTimer \
 		D:/Program_Files/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtCore/qtimer.h \
 		D:/Program_Files/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtCore/qbasictimer.h \
-		D:/Program_Files/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtGui/QMouseEvent
+		D:/Program_Files/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtGui/QMouseEvent \
+		../Game/mainwindow.h \
+		D:/Program_Files/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtWidgets/QMainWindow \
+		D:/Program_Files/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtWidgets/qmainwindow.h \
+		D:/Program_Files/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtWidgets/qtabwidget.h \
+		D:/Program_Files/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtGui/qicon.h \
+		D:/Program_Files/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtCore/QTime \
+		D:/Program_Files/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtCore/qdatetime.h \
+		D:/Program_Files/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtWidgets/QMessageBox \
+		D:/Program_Files/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtWidgets/qmessagebox.h \
+		D:/Program_Files/Qt/Qt5.12.1/5.12.1/mingw73_64/include/QtWidgets/qdialog.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\cards.o ..\Game\cards.cpp
 
 debug/qrc_image.o: debug/qrc_image.cpp 

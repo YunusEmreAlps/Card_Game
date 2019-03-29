@@ -20,8 +20,6 @@ void Cards::mousePressEvent(QMouseEvent *)
             QImage Image(":/Logo/Brand/"+QString::number(mainImage)+".png") ;
             setPixmap(QPixmap::fromImage(Image));
 
-
-
             Clicked = true ;
 
             mainframe->cardvalue = mainImage ;

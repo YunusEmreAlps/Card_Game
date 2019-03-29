@@ -25,6 +25,8 @@ class Ui_MainWindow
 public:
     QWidget *centralWidget;
     QLabel *Result;
+    QLabel *Card_1;
+    QLabel *Card_2;
     QMenuBar *menuBar;
     QToolBar *mainToolBar;
     QStatusBar *statusBar;
@@ -39,6 +41,12 @@ public:
         Result = new QLabel(centralWidget);
         Result->setObjectName(QString::fromUtf8("Result"));
         Result->setGeometry(QRect(70, 30, 200, 30));
+        Card_1 = new QLabel(centralWidget);
+        Card_1->setObjectName(QString::fromUtf8("Card_1"));
+        Card_1->setGeometry(QRect(280, 30, 200, 30));
+        Card_2 = new QLabel(centralWidget);
+        Card_2->setObjectName(QString::fromUtf8("Card_2"));
+        Card_2->setGeometry(QRect(490, 30, 200, 30));
         MainWindow->setCentralWidget(centralWidget);
         menuBar = new QMenuBar(MainWindow);
         menuBar->setObjectName(QString::fromUtf8("menuBar"));
@@ -60,6 +68,8 @@ public:
     {
         MainWindow->setWindowTitle(QApplication::translate("MainWindow", "MainWindow", nullptr));
         Result->setText(QString());
+        Card_1->setText(QString());
+        Card_2->setText(QString());
     } // retranslateUi
 
 };

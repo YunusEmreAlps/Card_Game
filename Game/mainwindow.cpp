@@ -12,8 +12,9 @@ MainWindow::MainWindow(QWidget *parent) :
     ui->setupUi(this);
 
     Timer = new QTimer() ;
-
+    Timer->start(3000) ;
     connect(Timer,SIGNAL(timeout()),this,SLOT(Process())) ;
+
 
    srand(time(nullptr)) ; // Random Number
    Creator() ;
@@ -110,35 +111,69 @@ void MainWindow::Process(){
         card_1 = cardvalue ;
         Control = false ;
         Temp_1= index_2 ;
+
+        if(card_1 == 1 ){ui->Card_1->setText("Adobe") ; }
+        else if(card_1 == 2 ){ui->Card_1->setText("Amazon"); }
+        else if(card_1 == 3 ){ui->Card_1->setText("Dell") ; }
+        else if(card_1 == 4 ){ui->Card_1->setText("Disney"); }
+        else if(card_1 == 5 ){ui->Card_1->setText("Dropbox") ; }
+        else if(card_1 == 6 ){ui->Card_1->setText("Facebook"); }
+        else if(card_1 == 7 ){ui->Card_1->setText("Google") ; }
+        else if(card_1 == 8 ){ui->Card_1->setText("Linkedin"); }
+        else if(card_1 == 9 ){ui->Card_1->setText("Windows") ; }
+        else if(card_1 == 10 ){ui->Card_1->setText("Netflix"); }
+        else if(card_1 == 11 ){ui->Card_1->setText("Tesla") ; }
+        else if(card_1 == 12 ){ui->Card_1->setText("intel"); }
+
     }
 
 
-
-    else if (ClickCounter == 2) {
+    if (ClickCounter == 2) {
 
         card_2 = cardvalue ;
         Temp_2 = index_2 ;
         Control = true ;
+
+        if(card_2 == 1 ){ui->Card_2->setText("Adobe") ; }
+        else if(card_2 == 2 ){ui->Card_2->setText("Amazon"); }
+        else if(card_2 == 3 ){ui->Card_2->setText("Dell") ; }
+        else if(card_2 == 4 ){ui->Card_2->setText("Disney"); }
+        else if(card_2 == 5 ){ui->Card_2->setText("Dropbox") ; }
+        else if(card_2 == 6 ){ui->Card_2->setText("Facebook"); }
+        else if(card_2 == 7 ){ui->Card_2->setText("Google") ; }
+        else if( card_2 == 8 ){ui->Card_2->setText("Linkedin"); }
+        else if(card_2 == 9 ){ui->Card_2->setText("Windows") ; }
+        else if(card_2 == 10 ){ui->Card_2->setText("Netflix"); }
+        else if(card_2 == 11 ){ui->Card_2->setText("Tesla") ; }
+        else if(card_2 == 12 ){ui->Card_2->setText("intel"); }
+
      }
 
 
-    if((Control == true)&&(ClickCounter == 2))
+
+
+
+   if((Control == true)&&(ClickCounter == 2))
     {
 
         if(card_1 != card_2)
          {
+
            QImage off_1(":/Logo/Brand/A.png") ;
            Brand[Temp_1]->setPixmap(QPixmap::fromImage(off_1)) ;
            Brand[Temp_2]->setPixmap(QPixmap::fromImage(off_1)) ;
 
-
             Brand[Temp_1]->Clicked = false ;
-            Brand[Temp_2]->Clicked = false  ;
+            Brand[Temp_2]->Clicked = false ;
             ClickCounter = 0  ;
+
             Counter() ;
             Control = false ;
 
             show() ;
+
+           Timer->stop() ;
+
         }
 
 
