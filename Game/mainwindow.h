@@ -42,15 +42,18 @@ public:
 
     int ClickCounter = 0 ;
 
+    int FinishCounter = 0 ;
+
     int index_2 ;
 
     int Temp_1 , Temp_2 ;
 
-
-
     bool Control = false ;
 
-    private:
+private slots:
+
+
+private:
     Ui::MainWindow *ui;
 
 
